@@ -1,30 +1,23 @@
-
-
 body{
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
     background-color: #e4ebff;
-    /* max-width: 100%; */
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
     align-items: center;
     flex-direction: column;
-
-}
+   }
 
 .card{
     height: 697px;
     width: 450px;
     border-radius: 20px;
     background-color: white;
-    /* margin-top: 102px;
-    margin-bottom: 101px;
-    margin-left: 495px; */
     border-radius: 20px;
     align-items: center;
     max-width: 100%;
-}
+    }
 
 .hero{
     border-top-right-radius: 20px;
@@ -34,28 +27,28 @@ body{
     }    
 
 h1{
-color: #1F2E55;
-font-weight: 900;
-font-family: 'Red Hat Display', sans-serif;
-height: 37px;
-width: 354px;
-font-size: 28px;
-text-align: center;
-margin-bottom: 17px;
-margin-left: 48px;
-margin-right: 48px;
-}
+    color: #1F2E55;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 37px;
+    width: 354px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 17px;
+    margin-left: 48px;
+    margin-right: 48px;
+    }
 
 p{
-height: 78px;
-width: 354px;
-margin-left: 48px;
-margin-right: 48px;
-font-size: 16px;
-color: #717FA6;
-text-align: center;
-font-family: 'Red Hat Display', sans-serif;
-line-height: 1.5;
+    height: 78px;
+    width: 354px;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-size: 16px;
+    color: #717FA6;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.5;
 }
 
 .plancontainer{
@@ -78,7 +71,6 @@ line-height: 1.5;
     font-weight: 900;
     margin-left: 24px;
     max-width: 100%;
-
 }
 
 .price{
@@ -86,13 +78,13 @@ line-height: 1.5;
     font-weight: 500;
     margin-left: -130px;
     margin-top: 6px;
-    
-}
-.music-icon{
+     }
+
+ .music-icon{
     height: 48px;
     width: 48px;
     margin-left: 24px;
-}
+    }
 
 .change{
     margin-left: 55px;
@@ -100,15 +92,15 @@ line-height: 1.5;
     font-weight: 700;
     text-decoration: underline;
     margin-top: 14px;
-}
+    }
 
 .change:hover{
     color: #766CF1;
     cursor: pointer;
     text-decoration: dashed;
+    }
 
-}
-.payment{
+ .payment{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,86 +115,94 @@ line-height: 1.5;
     margin-top: 32px;
     margin-left: 48px;
     margin-bottom: 32px;  
-}       
+    }       
 .payment:hover{
     cursor: pointer;
     background-color: #766CF1;
-}    
+    }    
 .cancel{
     color: #717FA6;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
     margin-left: 176px;
-}
+    }
 .cancel:hover{
     color: #1F2E55;
     cursor: pointer;
-}
+    }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{
+    margin-top: 35px;
+    font-size: 11px;
+    text-align: center;
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    }
 
 
 @media screen and (max-width: 760px){ 
     .card{
         height: 567px;
         width: 327px;
-       
-    }
+         }
       
-         h1{
+    h1{
         height: 29px;
         width: 263px;
         font-size: 22px;
       }
-      p{
+
+    p{
         height: 75px;
         width: 263px;
         font-size: 15px;
         text-align: center;
         margin-left: 30px;
-       
+        }
+    
+    .plancontainer{
+        height: 81px;
+        width: 279px;
+        margin-left: 25px;
+        margin-right: 40px;
+        font-size: 14px;
+     }  
+
+    .payment{
+        height: 50px;
+        width: 279px;
+        margin-left: 28px;
+        }  
+
+    .price{
+        color: #717FA6;
+        font-weight: 500;
+        margin-left: -90px;
+        margin-top: 6px;
+        font-size: 14px;
+        }
+
+    .cancel{
+        margin-left: 115px;
     }
-    
-     .plancontainer{
-      height: 81px;
-      width: 279px;
-      margin-left: 25px;
-      margin-right: 40px;
-      font-size: 14px;
-    
-}   
-.payment{
-    height: 50px;
-    width: 279px;
-    margin-left: 28px;
-}  
-.price{
-    color: #717FA6;
-    font-weight: 500;
-    margin-left: -90px;
-    margin-top: 6px;
-    font-size: 14px;
-    
-}
-.cancel{
-     margin-left: 115px;
-}
-.annual{
-    height: 19px;
-    width: 89px;
-    font-size: 14px;
-    margin-left: 20px;
-    
-}
-.music-icon{
-    height: 48px;
-    width: 48px;
-    margin-left: 16px;
-}
-.change{
-    margin-left: 39px;
-    text-decoration: underline;
-    margin-top: 13px;
-}
+
+    .annual{
+        height: 19px;
+        width: 89px;
+        font-size: 14px;
+        margin-left: 20px;
+        }
+
+    .music-icon{
+        height: 48px;
+        width: 48px;
+        margin-left: 16px;
+    }
+
+   .change{
+        margin-left: 39px;
+        text-decoration: underline;
+        margin-top: 13px;
+    }
 }
