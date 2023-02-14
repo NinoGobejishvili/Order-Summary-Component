@@ -132,7 +132,7 @@ line-height: 1.5;
     color: #1F2E55;
     cursor: pointer;
 }
-@media screen(max-width: 760px){ 
+@media screen and (max-width: 760px){ 
     .card{
         height: 567px;
         width: 327px;
@@ -142,5 +142,4 @@ line-height: 1.5;
         height: 194px;
         width: 639.27px;
       }
-
 }   
