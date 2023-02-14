@@ -1,12 +1,15 @@
 
 
 body{
-    height: 437px;
-    width: 1440px;
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
     background-color: #e4ebff;
-    max-width: 100%;
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -15,9 +18,9 @@ body{
     width: 450px;
     border-radius: 20px;
     background-color: white;
-    margin-top: 102px;
+    /* margin-top: 102px;
     margin-bottom: 101px;
-    margin-left: 495px;
+    margin-left: 495px; */
     border-radius: 20px;
     align-items: center;
     max-width: 100%;
@@ -147,11 +150,7 @@ line-height: 1.5;
        
     }
       
-    body{
-        height: 194px;
-        width: 639.27px;
-      }
-      h1{
+         h1{
         height: 29px;
         width: 263px;
         font-size: 22px;
@@ -162,7 +161,7 @@ line-height: 1.5;
         font-size: 15px;
         text-align: center;
         margin-left: 30px;
-        
+       
     }
     
      .plancontainer{
