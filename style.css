@@ -1,12 +1,12 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
 body{
     height: 437px;
     width: 1440px;
     background-image: url(images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-color: #e4ebff;
+    max-width: 100%;
 
 }
 
@@ -19,13 +19,16 @@ body{
     margin-bottom: 101px;
     margin-left: 495px;
     border-radius: 20px;
-    }
+    align-items: center;
+    max-width: 100%;
+}
 
 .hero{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-bottom: 45px;
-}    
+    max-width: 100%;
+    }    
 
 h1{
 color: #1F2E55;
@@ -71,7 +74,7 @@ line-height: 1.5;
     color: #1F2E55;
     font-weight: 900;
     margin-left: 24px;
-    
+    max-width: 100%;
 
 }
 
@@ -132,14 +135,75 @@ line-height: 1.5;
     color: #1F2E55;
     cursor: pointer;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
 @media screen and (max-width: 760px){ 
     .card{
         height: 567px;
         width: 327px;
-      }
+       
+    }
       
     body{
         height: 194px;
         width: 639.27px;
       }
+      h1{
+        height: 29px;
+        width: 263px;
+        font-size: 22px;
+      }
+      p{
+        height: 75px;
+        width: 263px;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 30px;
+        
+    }
+    
+     .plancontainer{
+      height: 81px;
+      width: 279px;
+      margin-left: 25px;
+      margin-right: 40px;
+      font-size: 14px;
+    
 }   
+.payment{
+    height: 50px;
+    width: 279px;
+    margin-left: 28px;
+}  
+.price{
+    color: #717FA6;
+    font-weight: 500;
+    margin-left: -90px;
+    margin-top: 6px;
+    font-size: 14px;
+    
+}
+.cancel{
+     margin-left: 115px;
+}
+.annual{
+    height: 19px;
+    width: 89px;
+    font-size: 14px;
+    margin-left: 20px;
+    
+}
+.music-icon{
+    height: 48px;
+    width: 48px;
+    margin-left: 16px;
+}
+.change{
+    margin-left: 39px;
+    text-decoration: underline;
+    margin-top: 13px;
+}
+}
